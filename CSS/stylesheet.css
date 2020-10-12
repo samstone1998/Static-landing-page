@@ -1,0 +1,84 @@
+*{
+    padding:0;
+    margin:0;
+    scroll-behavior: smooth;
+    font-family: 'Staatliches', cursive;
+}
+
+
+#header-image{
+    height: 50vh;
+    
+}
+.header-div{
+    padding-top:5vh;
+}
+#header-content{
+    color:  #e6c5a0;
+}
+#purchase-btn{
+    height: 6vh;
+    background-color: #e6c5a0 !important;
+    color: white;
+
+}
+
+#outline-btn:hover{
+    background-color: #343a40 !important;
+    border-color: #e6c5a0;
+    color:#e6c5a0 !important;
+}
+
+
+#specifications, #socials{
+
+    background-color: #e6c5a0;
+}
+
+
+#review-cards div{
+
+}
+
+#reviews div{
+    color:#e6c5a0;
+    font-style: italic;
+}
+#buynow-btn{
+    height: 6vh;
+    border-color: #e6c5a0;
+    color: #e6c5a0;
+}
+#buynow-btn:hover{
+    background-color: #e6c5a0;
+    color: white;
+
+}
+
+
+#socials div i{
+    color:#e6c5a0;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .header-div div {
+      margin-top:0;
+    }
+    #header-content h1{
+        font-size:60px !important;
+    }
+    #specifications div h1{
+        font-size: 35px;
+    }
+    .review{
+        margin-top:3vh;
+    }
+    button{
+        width:75%;
+    }
+    
+
+  }

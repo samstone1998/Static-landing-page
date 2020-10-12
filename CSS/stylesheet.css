@@ -8,6 +8,7 @@
 
 #header-image{
     height: 50vh;
+    animation: fadeInAnimation ease 3.5s;
     
 }
 .header-div{
@@ -15,6 +16,7 @@
 }
 #header-content{
     color:  #e6c5a0;
+    animation: fadeInAnimation ease 1.5s;
 }
 #purchase-btn{
     height: 6vh;
@@ -36,9 +38,12 @@
 }
 
 
-#review-cards div{
-
+.reviews{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.5s all ease-in-out;
 }
+
 
 #reviews div{
     color:#e6c5a0;
@@ -60,6 +65,20 @@
     color:#e6c5a0;
 }
 
+
+.appear{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
 
 
 

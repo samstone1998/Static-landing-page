@@ -1,0 +1,108 @@
+*{
+    padding:0;
+    margin:0;
+    scroll-behavior: smooth;
+    font-family: 'Staatliches', cursive;
+}
+
+
+#header-image{
+    height: 50vh;
+    animation: fadeInAnimation ease 3.5s;
+    
+}
+.header-div{
+    padding-top:5vh;
+}
+#header-content{
+    color:  #e6c5a0;
+    animation: fadeInAnimation ease 1.5s;
+}
+#purchase-btn{
+    height: 6vh;
+    background-color: #e6c5a0 !important;
+    color: white;
+
+}
+
+#outline-btn:hover{
+    background-color: #343a40 !important;
+    border-color: #e6c5a0;
+    color:#e6c5a0 !important;
+}
+
+
+#specifications, #socials{
+
+    background-color: #e6c5a0;
+}
+
+
+.reviews{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.5s all ease-in-out;
+}
+
+
+#reviews div{
+    color:#e6c5a0;
+    font-style: italic;
+}
+#buynow-btn{
+    height: 6vh;
+    border-color: #e6c5a0;
+    color: #e6c5a0;
+}
+#buynow-btn:hover{
+    background-color: #e6c5a0;
+    color: white;
+
+}
+
+
+#socials div i{
+    color:#e6c5a0;
+}
+
+
+.appear{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.info-dropdown{
+    font-size:20px; 
+}
+
+
+
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
+
+
+@media only screen and (max-width: 600px) {
+    .header-div div {
+      margin-top:0;
+    }
+    #header-content h1{
+        font-size:60px !important;
+    }
+    #specifications div h1{
+        font-size: 35px;
+    }
+    .review{
+        margin-top:3vh;
+    }
+    button{
+        width:75%;
+    }
+    
+
+  }
